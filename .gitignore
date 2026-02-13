@@ -1,3 +1,27 @@
-.idea
+# Fichier de configuration local
+.env
+
+# Fichiers système
 .DS_Store
+Thumbs.db
+.idea
+
+# Dossiers IDE
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Dossiers temporaires
+/tmp/
+/cache/
+
+# Dépendances (si vous utilisez Composer plus tard)
+/vendor/
+
+# Fichiers uploadés
 ./api/files/
+/public/uploads/*
+!/public/uploads/.gitkeep
